@@ -1,1 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400..800&family=Belanosima:wght@400;600;700&family=Lekton:ital,wght@0,400;0,700;1,400&display=swap');*{
+	box-sizing: border-box;
+}
+body {
+	background-color:#1E1E1E;
+}
+.page-title {
+	color: #FFF;
+}
 
+.practice-problems {
+		display: inline-flex;
+		gap: 150px;
+}
+
+.similar-font,
+.find-grid,
+.style-choice
+{
+	width:800px;
+	height:800px;
+}
+.similar-font {
+	background-color: #3D3E61;
+	color:#FFF;
+	font-family: "Lekton", sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.5;
+	padding: 100px;
+}
+
+.similar-font-headline{
+	font-family: "Belanosima", sans-serif;
+	font-weight: 600;
+	color:#FFBF43;
+	text-transform:uppercase;
+	font-size: 64px;
+	line-height: 1;
+}
+
+.find-grid{
+	background-color:#FFFFFF;
+	display:grid;
+	grid-template-columns: repeat(8,100px);
+	grid-template-rows: repeat(8,100px);
+	font-family: 'Courier New', Courier, sans-serif;
+	font-size: 15px;
+	color: #003053;
+}
+.find-grid-headline{
+	grid-column: 2/ span 6;
+	grid-row: 3/ span 2;
+	font-family: "Courier new", sans-serif;
+	font-weight: 600;
+	color:#003053;
+	text-transform:bold;
+	font-size: 60px;
+}
+.find-grid-content{
+	grid-column: 2/span 6;
+	grid-row: 5/span 2;
+	columns:2;
+}
+
+.style-choice {
+	background: url('../images/handmade-paper.png') 0% 0% /100px 100px repeat,#FFF;
+	font-family: "Lekton", monospace;
+  font-weight: 400;
+  font-style: normal;
+  padding: 100px;
+}
+.content-container{
+transform: rotate(15deg);
+}
+.style-choice-headline{
+	margin: 100px 0 ;
+	font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+	color:#003053;
+	font-size: 64px;
+	line-height: 1;
+}
